@@ -392,6 +392,10 @@ span{
         display: none;
     }
 
+    .navbar{
+        display: none;
+    }
+
     .portfolio-container{
     
         /* display: grid;
