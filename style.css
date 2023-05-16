@@ -229,14 +229,11 @@ span{
 
 .portfolio-container{
     
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem; */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-flow: row;
-  gap: 2.5rem;
+    gap: 2.5rem;
+    
 }
 
 
@@ -393,5 +390,17 @@ span{
 @media (max-width: 766px){
     #perfil{
         display: none;
+    }
+
+    .portfolio-container{
+    
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-auto-flow: row;
+      gap: 2.5rem;
     }
 }
