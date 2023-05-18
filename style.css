@@ -25,6 +25,7 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow: hidden;
 }
 
 section{
@@ -42,7 +43,7 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    overflow: hidden;
+    
 
 }
 
@@ -71,6 +72,7 @@ section{
 
 #menu-icon{
     font-size: 3.6rem;
+    margin-left: 5rem;
     color: var(--text-color);
     display: none;
     
